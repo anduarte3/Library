@@ -1,0 +1,59 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    background-color: lightslategray;
+    height: 150px;
+}
+.library {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+}
+.collection {
+    text-align: center;
+}
+form {
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    height: 50px;
+    width: 200px;
+}
+#read {
+    margin-top: 10px;
+}
+.button {
+    margin-top: 10px;
+    height: 30px;
+    width: 150px;
+}
+#section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#book-list {
+    text-align: center;
+}
+h1 {
+    margin-left: 50px;
+}
+.book-style {
+    font-size: 20px;
+   
+    text-align: center;
+}
+.read-button {
+    border: 1px solid black;
+    margin: 15px;
+    background-color: brown;
+}
+.delete-button {
+    border: 1px solid black;
+    margin: 15px;
+    background-color: red;
+}
+
